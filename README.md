@@ -9,21 +9,20 @@ A Docker template for PHP development, featuring PHP 8.0, MySQL 8.0, and PHPMyAd
 
 ## Getting Started
 
-1. Clone the repository:
+1. **Pull the Docker image from Docker Hub:**
 
     ```bash
-    git clone https://github.com/your-username/your-repo.git
-    cd your-repo
+    docker pull chanmyaemaung/php-mysql-template
     ```
 
-2. Build and run the Docker containers:
+2. **Run the Docker containers:**
 
     ```bash
-    docker-compose up --build -d
+    docker-compose up -d
     ```
 
-3. Access your PHP application at [http://localhost:your-port](http://localhost:your-port)
-4. Access PHPMyAdmin at [http://localhost:your-phpmyadmin-port](http://localhost:your-phpmyadmin-port)
+3. **Access your PHP application at [http://localhost:your-port](http://localhost:your-port)**
+4. **Access PHPMyAdmin at [http://localhost:your-phpmyadmin-port](http://localhost:your-phpmyadmin-port)**
 
 ## Configuration
 
@@ -37,13 +36,13 @@ By default, PHPMyAdmin is running on port 8080. You can access it at [http://loc
 
 ### Useful Commands
 
-- To stop and remove the containers:
+- **To stop and remove the containers:**
 
     ```bash
     docker-compose down
     ```
 
-- To view container logs:
+- **To view container logs:**
 
     ```bash
     docker-compose logs
