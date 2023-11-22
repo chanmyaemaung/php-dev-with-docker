@@ -1,0 +1,16 @@
+# Ignore common PHP files
+*.log
+*.sql
+
+# Ignore development files
+node_modules/
+vendor/
+
+# Ignore Docker-related files
+.dockerignore
+Dockerfile
+docker-compose.yml
+
+# Ignore version control files
+.git
+.gitignore
