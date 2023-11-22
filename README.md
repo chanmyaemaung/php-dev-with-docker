@@ -24,12 +24,6 @@ A Docker template for PHP development, featuring PHP 8.0, MySQL 8.0, and PHPMyAd
 3. **Access your PHP application at [http://localhost:your-port](http://localhost:your-port)**
 4. **Access PHPMyAdmin at [http://localhost:your-phpmyadmin-port](http://localhost:your-phpmyadmin-port)**
 
-## Configuration
-
-Explain any configuration options or environment variables here.
-
-## Development Setup
-
 ### PHPMyAdmin Port
 
 By default, PHPMyAdmin is running on port 8080. You can access it at [http://localhost:8080](http://localhost:8080).
